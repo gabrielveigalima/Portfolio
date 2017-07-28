@@ -43,9 +43,9 @@
                     $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
                     //Necessário inserir a chave 
-                    // antigo $apiKey = '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';
+                    
 
-                    $apiKey = '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';
+                    $apiKey = '';
 
                     $sg = new \SendGrid($apiKey);
 
